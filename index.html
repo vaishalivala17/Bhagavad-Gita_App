@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📖 Vedic Scriptures</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4 text-dark" href="#">📜 Vedic Scriptures</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#chapters-container">Chapters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="ms-3 btn btn-dark">Sign in</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main class="container my-5">
+    <h2 class="text-center mb-4">All Chapters</h2>
+    <div id="chapters-container" class="row g-4 justify-content-center"></div>
+  </main>
+
+  <!-- Modal for Shlokas -->
+  <div class="modal fade" id="shlokaModal" tabindex="-1" aria-labelledby="shlokaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header bg-warning">
+          <h5 class="modal-title fw-bold" id="shlokaModalLabel">Shlokas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modal-body-content">
+          <!-- Dynamic Shloka content will appear here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="container my-5 text-center">
+    <h3 class="fw-bold mb-3">About</h3>
+    <p>Vedic Scriptures App lets you explore chapters and shlokas from sacred texts with beautiful Sanskrit display and meanings for deeper understanding.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5 text-center">
+    <h3 class="fw-bold mb-3">Contact</h3>
+    <p>For feedback or suggestions, reach out at <strong>vedicapp@divine.com</strong>.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center bg-dark text-white py-3 mt-5">
+    &copy; 2025 Vaishali’s Vedic App 🌼
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="JavaScript/script.js"></script>
+</body>
+</html>
