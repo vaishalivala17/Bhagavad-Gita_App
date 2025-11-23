@@ -9,7 +9,6 @@ It uses the **BhagavadGitaAPI CDN** which provides all chapters, shloks, transli
 
 * ✔ Fetches all **18 chapters** directly from CDN
 * ✔ Displays **all shloks** with Sanskrit, Transliteration, and English meaning
-* ✔ **Dark / Light Mode** with automatic save in LocalStorage
 * ✔ No JSON files required — completely **online & auto-updating**
 * ✔ Clean UI with responsive design
 * ✔ Chapter-wise navigation
@@ -123,6 +122,7 @@ You can request these features and I will create them:
 
 * Audio pronunciation for each shlok
 * Search bar (search shlok by word)
+* ✔ **Dark / Light Mode** with automatic save in LocalStorage
 * Favourite shloks (save in localStorage)
 * Share shlok as image
 * Beautiful animations
